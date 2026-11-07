@@ -1,6 +1,6 @@
 cask "wink" do
-  version "0.2.0"
-  sha256 "2d35df65a09aefbc96ec3bb38050a1772a1aef8bdd5aa32bd885b3599c97fc71"
+  version "0.2.1"
+  sha256 "b640a95ec24b815b69371e3985213e344d8861a1284db10c38a4aaf427c5a224"
 
   url "https://github.com/liyincode/wink/releases/download/v#{version}/Wink-#{version}-macos-arm64.zip"
   name "Wink"
