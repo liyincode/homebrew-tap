@@ -15,8 +15,6 @@ brew update
 brew upgrade --cask liyincode/tap/wink
 ```
 
-Wink is not notarized by Apple. If macOS blocks the first launch, see [installation help](https://github.com/liyincode/wink/blob/main/docs/development.md#installation).
-
 ## Maintenance
 
 After publishing a new Wink release, update `version` and `sha256` in `Casks/wink.rb`. The checksum must match the published ZIP. Commit and push the updated Cask so Homebrew can offer the new version.
